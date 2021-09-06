@@ -90,6 +90,7 @@ button {
 .section {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color:#e6e6e6;
 }
 
 .section--clear {
@@ -121,6 +122,7 @@ button {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  background-color:#fff;
 }
 
 @media screen and (max-width: 1100px) {
@@ -255,6 +257,7 @@ button {
 **********************/
 .main-title {
   margin: 0;
+  background-color:#e6e6e6;
 }
 
 .sub-title {
@@ -271,12 +274,13 @@ button {
 
 .section-title {
   font-size: 24px;
-  line-height: 1.75;
+  line-height: 1.100;
   text-align: center;
   padding: 9px 20px;
   background-color: #d9e021;
   margin: 0 -20px 20px -20px;
 }
+
 
 .section-title__stage {
   display: inline-block;
@@ -284,11 +288,11 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #8cc63f;
+  background-color: #d9e021;
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #fff;
+  color: #000;
 }
 
 .section-title--keycolor {
@@ -316,7 +320,7 @@ button {
   left: calc(50% - 95px);
   display: block;
   content: '';
-  background-color: #fff;
+  background-color: #e6e6e6;
   height: 2.6px;
   width: 190px;
 }
@@ -365,7 +369,7 @@ button {
 * header
 *****************/
 .header {
-  background-color: #fff;
+  background-color: #fff ;
   height: 60px;
 }
 
@@ -383,13 +387,14 @@ button {
 }
 
 .header__logo {
-  width: 330px;
+  width: 500px;
   height: 42px;
 }
 
 .header__name {
   font-size: 20px;
   line-height: 1.1;
+  color: #000;
 }
 
 .footer {
@@ -411,6 +416,18 @@ button {
   margin: 0;
 }
 
+.box5 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  border: double 7px #4ec4d3;
+  background-color: #fff;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+}
+.box5 p {
+  margin: 0;
+  padding: 0;
+}
+
 .story__note__outer {
   width: 860px;
   display: -webkit-box;
@@ -421,6 +438,7 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #FFB9C6;
 }
 
 @media screen and (max-width: 940px) {
@@ -496,6 +514,7 @@ button {
 ********************/
 .text-center {
   text-align: center;
+  color: #000;
 }
 
 .text-left {
