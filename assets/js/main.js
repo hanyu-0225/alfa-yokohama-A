@@ -22,13 +22,13 @@ const app = Vue.createApp({
         },
         stage2: {
           q1: 'いいい',
-          // q2: 'えええ',
+          q2: 'ううう',
           // q3: 'おおお'
         },
         stage3: {
-          q1: 'ううう',
-          // q2: 'かかか',
-          // q3: 'ききき',
+          q1: 'えええ',
+          q2: 'おおお',
+          q3: 'かかか',
         }
       },
 
@@ -41,13 +41,13 @@ const app = Vue.createApp({
         ],
         stage2: [
           false, // 2-1
-          // false, // 2-2
+             false, // 2-2
           // false, // 2-3
         ],
         stage3: [
           false, // 3-1
-          // false, // 3-2
-          // false, // 3-3
+          false, // 3-2
+          false, // 3-3
         ]
       },
 
@@ -120,7 +120,7 @@ app.component('answer-input', {
         this.message = this.okMessage;
         this.$emit('answerInput', true);
       } else { // 一致しない場合
-        this.message = this.ngMessage; 
+        this.message = this.ngMessage;
         this.$emit('answerInput', false);
       }
     },
