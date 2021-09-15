@@ -268,7 +268,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <h2 class="section-title"><span class="section-title__stage">STAGE：3-1</span>
               </h2>
-
+              <figure class="image__container">
+                <img src="assets/images/question1.png" alt="">
+              </figure>
             <!-----------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。
@@ -290,6 +292,9 @@ Youtube貼り付けここまで -->
         <section class="section bg-color--gray">
           <div class="container">
             <h2 class="section-title"><span class="section-title__stage">STAGE：3-2</span>キーワードを入力</h2>
+            <figure class="image__container">
+              <img src="assets/images/question1.png" alt="">
+            </figure>
             <p class="text-center">窓の鍵を手に入れた！鍵を回して窓を引く。<br>
               ガタッ、ガタッ...<br>
               古いからだろうか。引っかかってなかなかうまく開けられない。<br>
@@ -298,9 +303,7 @@ Youtube貼り付けここまで -->
               遠くから音がどんどん近づいてくる！まずい、アイツが来た！まずはアイツを足止めしなければ！<br>
               ☆タイマーを2分にセットしなおしてください。<br>
             </p>
-              <figure class="image__container">
-                <img src="assets/images/question1.png" alt="">
-              </figure>
+
            <section>
               <answer-input v-bind:correct="correctAnswer['stage3']['q2']" v-on:answer-input="answerInput($event, 'stage3', 2, 'final')"></answer-input>
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
