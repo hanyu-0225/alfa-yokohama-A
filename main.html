@@ -31,16 +31,18 @@
       <div id="sectionStage1" class="stage" >
 
         <!-- STAGE1問題セクション　ここから -->
-        <section class="section">
+        <section class="section bg-color--gray">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>ストーリーを読んで状況を理解せよ
+
             </h2>
-            <p class="text-center">STAGE1　ストーリーを読んで状況を理解せよ
-              「教室...なの...？」<br>
+
+            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>ストーリーを読んで状況を理解せよ</h2>
+
+
+            <p class="text-center">「教室...なの...？」<br>
               机や椅子が並んでいて教室のようだが、明らかにおかしい。<br>
               なんだか暗くて寒いし、蛍光灯は割れてチカチカ点滅していて、窓の外は真っ暗。<br>
-              さっきまでいたはずの友だちや先生も、みんないなくなっている。<br>
-              不気味な雰囲気に恐怖が足元からはい上がってきて、ブルリと身体をふるわせる。<br>
+              さっきまでいたはずの友だちや先生も、みんないなくなっている。とても不気味だ。<br>
               ここから出なきゃ！そう思い、教室のドアを開けようとするが、びくともしない。<br>
               「どうしよう...お母さん、お父さん、みんな...」<br>
               そのとき…<br>
@@ -63,7 +65,6 @@
               <br>
               ？？「そうだな、どうしても出たいというなら、まずは黒板の問題を解いてみろ。<br>
               まあ、普段から宿題も授業もサボっているお前には解けないだろうがな」<br>
-              <br>
               「黒板の問題…？」<br>
               <br>
               黒板に目をやると、そこには謎らしきものが書かれている。<br>
@@ -71,41 +72,16 @@
               そう声に出しても、謎の声からの返事はない。<br>
               とにかく、まずはこれを解いてみるしかない…！<br>
               <br>
+              ☆答えはひらがなで入力してね！<br>
               ☆どうしても解けなくて困ったときはヒントがあるよ！<br>
 
 
-              </p>
+            </p>
 
-            <div class="container">
-              <figure class="image__container">
-                <img src="assets/images/question1.png" alt="">
-              </figure>
+            <figure class="image__container">
+              <img src="assets/images/question1.png" alt="">
+            </figure>
 
- <!--  YouTube貼り付け
-              <div class="youtube__container">
-                <div class="youtube">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/IRyJe-0Uie0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-Youtube貼り付けここまで -->
-
-            </div>
-          </div>
-        </section>
-        <!-- STAGE1問題セクション　ここまで -->
-
-        <!-- STAGE1解答入力セクション　ここから -->
-        <section class="section bg-color--gray">
-          <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力</h2>
-            <!------------------------------------------------------------------------------------------------------------
-              解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
-              v-bind:correct="correctAnswer['stage1']['q1']" は正解の解答を指します。
-              v-on:answer-input="answerInput($event, 'stage1', 1)" は送信ボタンをクリックした時の動作を決める関数です。
-              2番目、3番目の1引数 'stage1', 1 はstage1の1問目ということになります。
-              1番麺の引数 $event は正解、不正解の判定を受け取る変数です。
-              []、()の間違い、''の抜けがあると動きません。
-            ------------------------------------------------------------------------------------------------------------>
             <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
 
             <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
@@ -154,7 +130,9 @@ Youtube貼り付けここまで -->
               黒板の横に時間割の表があるので、調べてみると、そこには新たな謎らしきものが。<br>
               こうやって、答えの場所を調べて、新しい謎を解いていけば、教室から出られるかもしれない。<br>
               まずは左の謎から解こう！<br>
-              ※答えを書いたら、必ず送信ボタンを押してから次の謎に取り組もう。<br>
+              ☆答えを書いたら、必ず送信ボタンを押してから次の謎に取り組もう。<br>
+              ☆答えはひらがなで入力してね！<br>
+              ☆どうしても解けなくて困ったときはヒントがあるよ！<br>
                 </p>
             </div>
           </div>
@@ -257,6 +235,8 @@ Youtube貼り付けここまで -->
               この謎を解き、ケースを開けて鍵を取り出そう！<br>
               <br>
               ☆ここからは制限時間が発生します。手元のタイマーを◯分にセットしてから、謎を解いてください。<br>
+              ☆答えはひらがなで入力してね！<br>
+              ☆どうしても解けなくて困ったときはヒントがあるよ！<br>
 
               </p>
           </div>
@@ -305,6 +285,8 @@ Youtube貼り付けここまで -->
               遠くから音がどんどん近づいてくる！まずい、アイツが来た！まずはアイツを足止めしなければ！<br>
               <br>
               ☆タイマーを2分にセットしなおしてください。<br>
+              ☆答えはひらがなで入力してね！<br>
+              ☆どうしても解けなくて困ったときはヒントがあるよ！<br>
             </p>
 
             <figure class="image__container">
@@ -315,21 +297,13 @@ Youtube貼り付けここまで -->
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
         </section>
-      　　
-
-
-
-        <section class="section">
-          <div class="container">
-          </div>
-        </section>
 
         <section class="section bg-color--gray">
           <div class="container">
 
             </h2>
 
-            <h2 class="section-title"><span class="section-title__stage">STAGE：3-2</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：3-3</span>キーワードを入力</h2>
 
 
             <p class="text-center">ピアノでドアを抑えた。今のうちに窓から出よう。<br>
@@ -338,7 +312,9 @@ Youtube貼り付けここまで -->
               窓を出て、校門まで全力で走る。門は押してもびくともしない。<br>
               門を開けてここから逃げるため、最後の謎を解け！<br>
               <br>
-              ☆足止めに成功しました。タイマーを◯分にセットしなおしてください<br>
+              ☆足止めに成功しました。タイマーを○分にセットしなおしてください<br>
+              ☆答えはひらがなで入力してね！<br>
+              ☆どうしても解けなくて困ったときはヒントがあるよ！<br>
 
             </p>
 
