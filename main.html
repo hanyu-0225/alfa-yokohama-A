@@ -285,12 +285,6 @@ Youtube貼り付けここまで -->
 
 
           <section class="section">
-          <div class="container">
-
-            <figure class="image__container">
-              <img src="assets/images/question1.png" alt="">
-            </figure>
-          </div>
         </section>
 
         <section class="section bg-color--gray">
@@ -303,7 +297,12 @@ Youtube貼り付けここまで -->
               ドスッ、ドスッ、ドスッ...<br>
               遠くから音がどんどん近づいてくる！まずい、アイツが来た！まずはアイツを足止めしなければ！<br>
               ☆タイマーを◯分にセットしなおしてください。<br>
+              <div class="container">
 
+                <figure class="image__container">
+                  <img src="assets/images/question1.png" alt="">
+                </figure>
+              </div>
             <answer-input v-bind:correct="correctAnswer['stage3']['q2']" v-on:answer-input="answerInput($event, 'stage3', 2, 'final')"></answer-input>
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
@@ -314,12 +313,6 @@ Youtube貼り付けここまで -->
 
 
         <section class="section">
-          <div class="container">
-
-            <figure class="image__container">
-              <img src="assets/images/question6.png" alt="">
-            </figure>
-          </div>
         </section>
 
         <section class="section bg-color--gray　">
@@ -333,6 +326,12 @@ Youtube貼り付けここまで -->
               <br>
               ☆足止めに成功しました。タイマーを◯分にセットしなおしてください<br>
 
+              <div class="container">
+
+                <figure class="image__container">
+                  <img src="assets/images/question6.png" alt="">
+                </figure>
+              </div>
 
             <answer-input v-bind:correct="correctAnswer['stage3']['q3']" v-on:answer-input="answerInput($event, 'stage3', 3, 'final')"></answer-input>
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
